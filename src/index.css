@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Space Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffcd38;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 50px;
+  font-weight: bold;
+  font-size: 2em;
+  margin: auto;
+}
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table{
+  position: relative;
+  top: 75px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+textarea{
+  background-color: #ffdd67;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
